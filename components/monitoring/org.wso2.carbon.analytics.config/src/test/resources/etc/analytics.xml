@@ -1,0 +1,32 @@
+<analytics>
+    <server id="server1">
+        <enabled>true</enabled>
+        <protocol>thrift</protocol>
+        <url>tcp://localhost:7614</url>
+        <username>admin</username>
+        <password>password</password>
+        <streams>
+            <stream id="stream1">
+                <enabled>true</enabled>
+                <name>streamName1</name>
+                <description>streamDescription1</description>
+                <version>streamVersion1</version>
+            </stream>
+        </streams>
+    </server>
+    <server id="server2">
+        <enabled>false</enabled>
+        <protocol>thrift</protocol>
+        <url>tcp://localhost:7614</url>
+        <username>admin</username>
+        <password>password</password>
+        <streams>
+            <stream id="stream2">
+                <enabled>true</enabled>
+                <name>streamName2</name>
+                <description>streamDescription2</description>
+                <version>streamVersion2</version>
+            </stream>
+        </streams>
+    </server>
+</analytics>
